@@ -1,0 +1,24 @@
+Step 1. 
+  open > choose an experiment > only pick Autoscle, and Composite for color mode > select a series
+  
+Step 2.
+  Analyze > Tools > Scale bar
+  
+Step 3.
+  Image > Color > Split channels
+  
+Step 4.
+  Image > Stacks > Z project > maximum intensity (or sum intensity, need to add color afterwards by choosing color > channel tools > more > green)
+  
+Step 5. 
+  Image > Type > RGB colors (when export the image, must choose RGB color)
+  
+Step 6.
+  adjust the brightness, remember the setting, use the same setting for other images
+
+Step 7.
+  Image > Color > Merge channels
+  Image > Type > RGB colors ## for export the merged image
+  
+Step 8.
+  Repeat merging stacks by z project and change type to RGB colors, then export individual single channels
